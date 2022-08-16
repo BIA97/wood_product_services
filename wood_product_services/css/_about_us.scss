@@ -1,0 +1,83 @@
+.header-about {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #222021;
+    padding-top: 105px;
+    
+
+
+    &__container {
+        background-color: #1e0c06;
+        flex: 0 1 1325px;
+        border-radius: 0px 42px 42px 0px;
+        
+    }
+
+    &__content {
+        display: flex;
+        column-gap: 62px;
+        justify-content: center;
+        max-height: 775px;
+        
+    }
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        row-gap: 67px;
+        padding-top: 44px;
+    }
+
+    &__title {
+        font-family: 'KyivType Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 132.9%;
+        text-transform: uppercase;
+        color: #F5F5F5;
+        
+        
+
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 139.4%;
+        color: #F5F5F5;
+        max-width: 516px;
+
+    }
+
+    &__right {
+        display: flex;
+        flex-direction: column;
+        width: 424px;
+        justify-content: flex-end;
+    }
+
+    &__image-one {
+        align-self: flex-end;
+        position: relative;
+        top: 89px;
+    }
+
+    &__image-two {
+        align-self: flex-start;
+        z-index: 2;
+        box-shadow: 0 0 0 10px #1E0C06;
+        border-radius: 42px;
+        margin-bottom: 25px;
+    }
+
+    &__image-three {
+        align-self: flex-end;
+        position: relative;
+        right: 30px;
+        padding-bottom: 30px;
+    }
+    &__image-img {}
+}
