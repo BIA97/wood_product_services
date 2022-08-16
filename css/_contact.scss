@@ -1,0 +1,151 @@
+.header-contact {}
+
+.header-bar {
+
+    &__container {}
+
+    &__content {}
+}
+
+.top-bar-logo {
+    background-color: #1e0c06;
+    height: 174px;
+    border-radius: 0px 0px 79px 79px;
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__link{
+        margin-left: 108px;
+        align-self: center;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: right;
+        row-gap: 50px;
+        column-gap: 57px;
+        margin-right: 79px;
+        height: 174px;
+        align-self: center;
+    }
+
+    &__item {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #F5F5F5;
+        align-self: center;
+    }
+}
+.main-contact {
+    display: flex;
+    justify-content: center;
+    background-color: #222021;
+    
+    // flex-direction: column;
+
+    &__container {
+    width: 1113px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        // flex-direction: column;
+    }
+    &__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 55px;
+    }
+
+    &__title {
+        font-family: 'KyivType Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 132.9%;
+        text-transform: uppercase;
+        color: #F5F5F5;
+
+    }
+    &__bottom-item{
+        display: flex;
+        flex-direction: column;
+        row-gap: 33px;
+        
+    }
+
+    &__number {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 139.4%;
+        color: #F5F5F5;
+        padding-left: 50px;
+        &::before{
+            content: url("../img/icons/phone.svg");
+            vertical-align: middle;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin-left: -50px;
+        }
+
+    }
+
+    &__location {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 139.4%;
+        color: #F5F5F5;
+        max-width: 350px;
+        padding-left: 50px;
+        
+        &::before{
+            content: url(../img/icons/location.svg);
+            vertical-align:middle;
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            margin-left: -50px;
+            margin-bottom: -35px;
+
+        }
+        
+    }
+    &__location-link{
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 139.4%;
+        color: #F5F5F5;
+    }
+    &__right{
+
+    }
+    &__maps {}
+
+    &__map{
+        border-radius: 42px;
+        width: 493px;
+        height:428px;
+        padding: 18px;
+    }
+}
+// #242223
+  
